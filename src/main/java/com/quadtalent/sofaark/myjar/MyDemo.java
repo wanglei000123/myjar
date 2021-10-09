@@ -9,9 +9,9 @@ public class MyDemo {
     public MyDemo(){};
 
     public void test1(){
-        System.out.println("----------myjar v1 start-----------");
-        System.out.println("myjar v1 classloader=" + this.getClass().getClassLoader());
-        System.out.println("----------myjar v1 end-----------");
+        System.out.println("----------conflictJar v1 start-----------");
+        System.out.println("conflictJar v1 classloader=" + this.getClass().getClassLoader());
+        System.out.println("----------conflictJar v1 end-----------");
     }
 
 }
