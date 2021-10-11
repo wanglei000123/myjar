@@ -12,6 +12,7 @@ public class MyDemo {
         System.out.println("----------conflictJar v1 start-----------");
         System.out.println("conflictJar v1 classloader=" + this.getClass().getClassLoader());
         System.out.println("----------conflictJar v1 end-----------");
+        System.out.println();
     }
 
 }
